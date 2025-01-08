@@ -1,3 +1,3 @@
-declare module 'tailwindcss/lib/util/flattenColorPalette' {
-  export default function flattenColorPalette(colors: any): any;
+declare module 'tailwind-merge' {
+  export function twMerge(...classLists: string[]): string;
 } 

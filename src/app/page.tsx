@@ -1,12 +1,19 @@
 import Layout from '@/components/layout/Layout';
 import { Card3D } from '@/components/ui/Card3D';
-import { GradientBackground } from '@/components/ui/GradientBackground';
 import { HeroParallaxDemo } from '@/components/ui/hero-parallax-demo';
 import Image from 'next/image';
 import { Lens } from '@/components/ui/Lens';
 import Link from 'next/link';
 
-const blogPosts: any[] = [];
+interface BlogPost {
+  title: string;
+  content: string;
+  // ... 其他属性
+}
+
+const blogPosts: BlogPost[] = [
+  // ... 你的博客文章数据
+];
 
 export default function Home() {
   return (
