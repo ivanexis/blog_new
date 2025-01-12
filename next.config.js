@@ -7,7 +7,7 @@ const nextConfig = {
     loaderFile: './image-loader.js'
   },
   basePath: '',
-  assetPrefix: '/',
+  assetPrefix: 'https://goldrest.us.kg',
   trailingSlash: true,
 };
 
