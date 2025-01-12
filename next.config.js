@@ -7,7 +7,7 @@ const nextConfig = {
     loaderFile: './image-loader.js'
   },
   basePath: '',
-  assetPrefix: 'https://goldrest.us.kg',
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://goldrest.us.kg/' : '',
   trailingSlash: true,
 };
 
