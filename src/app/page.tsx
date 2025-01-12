@@ -5,16 +5,6 @@ import Image from 'next/image';
 import { Lens } from '@/components/ui/Lens';
 import Link from 'next/link';
 
-interface BlogPost {
-  title: string;
-  content: string;
-  // ... 其他属性
-}
-
-const blogPosts: BlogPost[] = [
-  // ... 你的博客文章数据
-];
-
 export default function Home() {
   return (
     <Layout>
@@ -44,7 +34,7 @@ export default function Home() {
                       Ivan Zhao
                     </h1>
                     <Link 
-                      href="/uiux/page.tsx" 
+                      href="/uiux" 
                       className="inline-block text-[48px] font-bold text-[#4f85a6] mt-2 transition-all duration-500 hover:text-blue-500 hover:scale-105 cursor-pointer"
                     >
                       UI/UX   

@@ -2,12 +2,13 @@
 const nextConfig = {
   output: 'export',
   images: {
-    unoptimized: true
+    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './image-loader.js'
   },
-  // 如果使用了外部图片，添加domains
-  // images: {
-  //   domains: ['your-domain.com']
-  // }
+  basePath: '',
+  assetPrefix: '.',
+  trailingSlash: true,
 };
 
 module.exports = nextConfig; 

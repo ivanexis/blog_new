@@ -30,7 +30,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     sizes="48px"
                   />
                 </div>
-                <span className="text-2xl font-bold text-white">Ivan's Blog</span>
+                <span className="text-2xl font-bold text-white">Ivan&apos;s Blog</span>
               </Link>
             </motion.div>
 
@@ -100,7 +100,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col items-center gap-4">
             <div className="text-sm text-white">
-              © {new Date().getFullYear()} Ivan's Blog. All rights reserved.
+              © {new Date().getFullYear()} Ivan&apos;s Blog. All rights reserved.
             </div>
           </div>
         </div>
